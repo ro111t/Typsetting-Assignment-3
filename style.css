@@ -1,0 +1,193 @@
+/* General setup; do not change the given CSS code. Add your own CSS code at the bottom! */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+ /* I'm choosing times new roman */
+  body {
+    font-family: 'Times New Roman', serif;
+    font-size: 10px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    padding-top: 80px;
+  }
+  
+  h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  h1 {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+  }
+  
+  p, ul, ol {
+    font-size: 1.25rem;
+  }
+  
+  section p:first-of-type, aside p:first-of-type {
+    text-indent: 1.25rem;
+  }
+  
+  a {
+    text-decoration: underline;
+    color: #a66;
+  }
+  
+  a:visited {
+    color: #855;
+  }
+  
+  a:focus,
+  a:hover {
+    text-decoration: none;
+    color: #b97d62;
+  }
+  
+  a:active {
+    color: #d4a19b;
+  }
+  
+  a[href^="http"]:after {
+    content: url('https://www.gstatic.com/images/icons/material/system/1x/open_in_new_black_20dp.png');
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  
+  a:focus {
+    outline: none;
+  }
+  
+   /* This is the style for the lists */
+  ul, ol {
+    padding-left: 20px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  li {
+    line-height: 1.8;
+  }
+  
+  ul li {
+    list-style-type: disc;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style-type: square;
+  }
+  
+   /* This is all the navigation stuff */
+
+  nav {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 1.5rem 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #a66;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #a66;
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:focus {
+    background-color: #b97d62;
+    color: white;
+    outline: none;
+  }
+  
+  nav ul li a:active {
+    background-color: #d4a19b;
+    color: white;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1.5rem 0;
+    background-color: #333;
+    color: white;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
